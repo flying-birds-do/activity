@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?33wuhz');
+  src:  url('../fonts/icomoon.eot?33wuhz#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?33wuhz') format('truetype'),
+    url('../fonts/icomoon.woff?33wuhz') format('woff'),
+    url('../fonts/icomoon.svg?33wuhz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-details:before {
+  content: "\e900";
+  color: #ffaf67;
+}
+.icon-Determine:before {
+  content: "\e901";
+  color: #ff7934;
+}
+.icon-edit:before {
+  content: "\e902";
+  color: #ff7934;
+}
+.icon-icon-add:before {
+  content: "\e903";
+  color: #ff7934;
+}
+.icon-icon1-slected:before {
+  content: "\e904";
+  color: #ff7934;
+}
+.icon-icon1-un:before {
+  content: "\e905";
+  color: #999;
+}
+.icon-icon2-slected:before {
+  content: "\e906";
+  color: #ff7934;
+}
+.icon-icon2-un:before {
+  content: "\e907";
+  color: #999;
+}
+.icon-icon3:before {
+  content: "\e908";
+  color: #ff7934;
+}
+.icon-more:before {
+  content: "\e909";
+  color: #ff7934;
+}
+.icon-return:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-slected .path1:before {
+  content: "\e90b";
+  color: rgb(255, 175, 103);
+}
+.icon-slected .path2:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-sum .path1:before {
+  content: "\e90d";
+  color: rgb(255, 255, 255);
+}
+.icon-sum .path2:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(255, 121, 52);
+}
+.icon-sum .path3:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(255, 121, 52);
+}
+.icon-unslected:before {
+  content: "\e910";
+  color: #f8f8f8;
+}
